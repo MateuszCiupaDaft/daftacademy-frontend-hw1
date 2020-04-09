@@ -19,4 +19,4 @@ npm run deploy
 
 ### Deployment
 
-Build runs on [GithubPages](https://mateuszciupadaft.github.io/daftacademy-frontend-hw1/ "Go to preview").
+Build runs on [GitHub Pages](https://mateuszciupadaft.github.io/daftacademy-frontend-hw1/ "Go to preview").
