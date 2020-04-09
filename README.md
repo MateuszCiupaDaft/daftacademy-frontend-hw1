@@ -12,7 +12,7 @@ Build with Webpack
 ```
 npm run build
 ```
-Deploy on GithubPages
+Deploy on GitHub Pages
 ```
 npm run deploy
 ```
