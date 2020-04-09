@@ -1,5 +1,4 @@
 import daftcodeImgUrl from "./assets/daftcode.png";
-import "./styles/style.sass";
 
 export default function () {
   const section = document.createElement("section");
