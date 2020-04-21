@@ -20,8 +20,13 @@ module.exports = {
         use: ["style-loader", "css-loader", "sass-loader"],
       },
       {
-        test: /\.(png|jpe?g|gif)$/i,
-        use: ["file-loader"],
+        test: /\.(jpe?g|png|svg|gif|ico|webp|eot|ttf|woff|woff2|pdf|mp4|webm)$/,
+        use: {
+          loader: "file-loader",
+          options: {
+            outputPath: "assets",
+          },
+        },
       },
       {
         test: /\.js$/,
@@ -34,5 +39,10 @@ module.exports = {
         },
       },
     ],
+  },
+  devServer: {
+    contentBase: path.join(__dirname, "dist"),
+    compress: true,
+    port: 9000,
   },
 };
